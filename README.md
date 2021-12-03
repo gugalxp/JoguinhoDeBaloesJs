@@ -1,2 +1,2 @@
-# JoguinhoDeBaloesJs
-Jogo criado afim de treinar lógica e funções com JavaScript
+# JoguinhoDeBaloesJs1
+Jogo criado afim de treinar lógica com funções JavaScript
