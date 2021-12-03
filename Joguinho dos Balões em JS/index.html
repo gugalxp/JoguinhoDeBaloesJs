@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style type="text/css">
+        .balao {
+            margin-top: 50px;
+            width: 50px;
+            height: 100px;
+            background-color: blue;
+            border-radius: 30px;
+            position: absolute;
+        }
+        
+        .container {
+            border: 3px solid red;
+            position: absolute;
+            width: 99%;
+            height: 100%;
+        }
+        
+        #gameGain {
+            text-align: center;
+        }
+        
+        .containerMenu {
+            height: 13rem;
+            margin-bottom: 10rem;
+            text-align: center;
+        }
+        
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+    </style>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body class="container" onload="carregarJogo()">
+
+    <div class="containerMenu">
+
+        <h3 id="totBalaoRM" style="color: rgb(163, 163, 163);"></h3>
+        <h3 id="totalBalao" style="color: rgb(163, 163, 163);"></h3>
+        <h3 id="totalBalaoRemovido" style="color: rgb(163, 163, 163);"></h3>
+        <h1 id="gameGain" style="text-align:center; color:rgb(21, 248, 0);"></h1>
+
+    </div>
+
+</body>
+
+</html>
